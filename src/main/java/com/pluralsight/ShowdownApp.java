@@ -41,6 +41,11 @@ public class ShowdownApp {
 
         myHero.fight(jazzyLi);
 
+        //see what type of class eric is
+        System.out.println("Eric is an instance of: " + eric.getClass());
+
+        //see what type of class eric is
+        System.out.println("EricTheHero is an instance of: " + myHero.getClass());
 
     }
 
