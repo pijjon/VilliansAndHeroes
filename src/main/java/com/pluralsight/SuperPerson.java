@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Random;
+
 public class SuperPerson {
 
     //create soe properties for the class
