@@ -11,7 +11,7 @@ public class SuperVillain extends SuperPerson   {
     }
 
     @Override
-    public void fight(SuperPerson opponent){
+    public void attack(SuperPerson opponent){
 
         //generate a random number of damage to do
         Random rand = new Random();
