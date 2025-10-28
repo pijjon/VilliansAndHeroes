@@ -39,8 +39,12 @@ public class SuperPerson {
     }
 
     //this method will allow a SuperPerson to fight another SuperPerson
-    public void fight(SuperPerson opponent){
-        System.out.println(this.getName() + " is ready to fight: " + opponent.getName());
+    public void attack(SuperPerson opponent){
+        System.out.println(this.getName() + " is ready to attack: " + opponent.getName());
+        Random rand = new Random();
+        int damage = rand.nextInt(0, 10);
+        opponent.takeDamage(damage);
+        System.out.println(this.getName() + " deals " + damage + " to " + opponent.getName());
     }
 
     //getters and setters
